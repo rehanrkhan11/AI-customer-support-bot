@@ -1,36 +1,60 @@
----
-
-### 📄 Project 2: NovaSoft SaaS Support Bot README
-markdown
 # 🤖 Nova — AI Customer Support Bot (SaaS RAG Pipeline)
 
-A production-ready, dark-themed AI customer support application powered by **Retrieval-Augmented Generation (RAG)**. Built using **Streamlit**, **LangChain**, and Meta's high-efficiency **FAISS** index database, Nova provides factual, non-hallucinated answers directly from an editable markdown knowledge base.
+A production-ready, AI-powered customer support application built using **Streamlit**, **LangChain**, **FAISS**, and **OpenRouter LLMs**. Nova leverages **Retrieval-Augmented Generation (RAG)** to provide accurate, context-aware, and non-hallucinated responses by retrieving information directly from a curated knowledge base.
 
-This repository features a built-in, side-by-side **Learning Panel** designed to visualize precisely how context retrieval, embedding distance vectors, and LangChain Expression Language (LCEL) pipelines transform raw user inputs into structured AI assertions in real-time.
+The application features a modern dark-themed interface and an interactive Learning Panel that demonstrates how user queries are processed through embeddings, vector similarity search, context retrieval, and Large Language Model reasoning in real time.
 
----
+## ✨ Features
 
-## ✨ Core Product Highlights
+* 🔍 Retrieval-Augmented Generation (RAG) architecture
+* 📚 Knowledge-base powered responses
+* ⚡ Fast semantic search using FAISS vector database
+* 🧠 LangChain-based retrieval and orchestration
+* 🤖 LLM integration through OpenRouter
+* 🌙 Modern dark-themed UI with Streamlit
+* 📊 Interactive Learning Panel for RAG visualization
+* 🔒 Reduced hallucinations through context grounding
+* 📈 Scalable architecture for SaaS customer support systems
 
-- 🎨 **Premium SaaS Dark Palette** — Outfitted with custom structural CSS styling, gradient accent glowing banners, animated pulse indicators, and tailored responsiveness.
-- ⚡ **Ultra-Fast FAISS Integration** — Completely circumvents traditional ChromaDB/Protobuf matrix dependency issues on minimal Linux infrastructure by using local flat-file storage vectors.
-- 🎓 **Live Educational Telemetry** — Interactive lateral panel dynamically demonstrates execution metrics, vector concepts, and internal pipeline flow schemas.
-- 📝 **Zero-Code Knowledge Modification** — Update the entire platform domain instantly by simply re-authoring or adding markdown rules to `knowledge_base.txt`.
-- 🍿 **Interactive Quick-Start Suggestion Chips** — Provides interactive clickable entry points to prompt common workspace inquiries without typing overhead.
+## 🛠️ Tech Stack
 
----
+* Python
+* Streamlit
+* LangChain
+* FAISS
+* OpenRouter API
+* Sentence Transformers
+* Retrieval-Augmented Generation (RAG)
+* Vector Embeddings
+* Markdown Knowledge Base
 
-## 🧱 The Core Framework Stack
+## 🚀 How It Works
 
-* **UI Engine:** Streamlit (Custom HTML-injected DOM wrappers)
-* **Pipeline Orchestration:** LangChain Core / Expression Language (LCEL)
-* **Semantic Lookups:** Meta FAISS (`faiss-cpu`)
-* **Vector Matrix Generation:** `text-embedding-3-small` via OpenRouter
-* **Target Inference Brain:** Llama 3 / Mistral via OpenRouter Free Tier
+1. User submits a support query.
+2. Query is converted into vector embeddings.
+3. FAISS performs semantic similarity search.
+4. Relevant context is retrieved from the knowledge base.
+5. LangChain injects retrieved context into the prompt.
+6. The LLM generates an accurate and grounded response.
+7. The Learning Panel visualizes each step of the retrieval pipeline.
 
----
+## 📚 Learning Outcomes
 
-## 📁 Repository Blueprint
+* Implemented a complete RAG pipeline from scratch.
+* Gained hands-on experience with vector databases and embeddings.
+* Learned prompt engineering and context injection techniques.
+* Built production-ready AI applications using LangChain.
+* Explored semantic search and information retrieval systems.
+
+## 🎯 Use Cases
+
+* SaaS Customer Support
+* Internal Knowledge Assistants
+* Documentation Search Systems
+* AI Helpdesk Automation
+* Enterprise Knowledge Management
+
+
 
 text
 ├── app.py                  # Polished Streamlit Application & RAG Pipeline Logic
