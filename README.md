@@ -1,7 +1,7 @@
 ---
 
 ### 📄 Project 2: NovaSoft SaaS Support Bot README
-`markdown
+markdown
 # 🤖 Nova — AI Customer Support Bot (SaaS RAG Pipeline)
 
 A production-ready, dark-themed AI customer support application powered by **Retrieval-Augmented Generation (RAG)**. Built using **Streamlit**, **LangChain**, and Meta's high-efficiency **FAISS** index database, Nova provides factual, non-hallucinated answers directly from an editable markdown knowledge base.
