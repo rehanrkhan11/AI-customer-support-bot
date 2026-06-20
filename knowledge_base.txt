@@ -1,0 +1,135 @@
+# NovaSoft SaaS - Complete Knowledge Base
+
+## About NovaSoft
+NovaSoft is a cloud-based project management and team collaboration platform. We help software teams plan, build, and ship products faster. Founded in 2021, we serve over 10,000 teams worldwide.
+
+## Pricing Plans
+
+### Free Plan - $0/month
+- Up to 3 projects
+- 5 team members
+- 2GB storage
+- Basic analytics
+- Community support
+
+### Starter Plan - $19/month
+- Up to 20 projects
+- 25 team members
+- 50GB storage
+- Advanced analytics
+- Email support (48hr response)
+- API access (1000 calls/day)
+
+### Pro Plan - $49/month
+- Unlimited projects
+- Unlimited team members
+- 500GB storage
+- Full analytics + custom reports
+- Priority email support (12hr response)
+- API access (50,000 calls/day)
+- Custom integrations
+- SSO (Single Sign-On)
+
+### Enterprise Plan - Custom pricing
+- Everything in Pro
+- Dedicated account manager
+- 99.99% uptime SLA
+- On-premise deployment option
+- Custom contracts & invoicing
+- 24/7 phone + chat support
+- Unlimited API calls
+- Advanced security & compliance (SOC2, HIPAA)
+
+## Features
+
+### Project Management
+- Kanban boards, Gantt charts, and Sprint planning
+- Task assignment, due dates, priorities, and labels
+- Sub-tasks and task dependencies
+- Time tracking built-in
+- Recurring tasks support
+
+### Collaboration
+- Real-time document editing (like Google Docs)
+- Team chat with threads and channels
+- Video call integration (Zoom, Meet, Teams)
+- @mentions and notifications
+- Activity feed and audit logs
+
+### Integrations
+- GitHub and GitLab (sync commits to tasks)
+- Slack (notifications and commands)
+- Jira (import existing projects)
+- Zapier (connect 5000+ apps)
+- REST API and Webhooks
+
+### Analytics & Reporting
+- Team velocity and burndown charts
+- Individual productivity reports
+- Project health dashboards
+- Custom report builder (Pro+)
+- Export to CSV, PDF, Excel
+
+## Getting Started
+
+### Step 1: Create Your Account
+Go to app.novasoft.io and click "Start Free". Enter your email and create a password. Verify your email within 24 hours.
+
+### Step 2: Set Up Your Workspace
+After login, you'll see the Setup Wizard. Enter your company name, invite team members by email, and choose your first project template (Scrum, Kanban, or Simple List).
+
+### Step 3: Create Your First Project
+Click "+ New Project" in the sidebar. Choose a template or start blank. Set project dates and assign a project lead.
+
+### Step 4: Invite Your Team
+Go to Settings > Team > Invite Members. Enter emails and set roles: Owner, Admin, Member, or Viewer.
+
+## Common Issues & Troubleshooting
+
+### Login Problems
+- Forgot password: Click "Forgot Password" on login page, check email within 5 minutes
+- Account locked: After 5 failed attempts, account locks for 30 minutes
+- SSO issues: Contact your IT admin to verify SAML configuration
+
+### Billing Issues
+- Payment failed: Update card in Settings > Billing > Payment Method
+- Downgrade plan: Go to Settings > Billing > Change Plan (takes effect next billing cycle)
+- Cancel subscription: Settings > Billing > Cancel (data kept for 90 days)
+- Request refund: Email billing@novasoft.io within 14 days of charge
+
+### Performance Issues
+- Slow loading: Clear browser cache, try incognito mode, check status.novasoft.io
+- File upload failing: Max file size is 100MB. Check your storage quota in Settings > Storage
+- Notifications not working: Check Settings > Notifications and browser permissions
+
+### Data & Security
+- Export your data: Settings > Account > Export Data (ZIP file emailed within 1 hour)
+- Delete account: Settings > Account > Delete Account (irreversible after 30 days)
+- Two-factor authentication: Settings > Security > Enable 2FA (strongly recommended)
+- GDPR requests: Email privacy@novasoft.io
+
+## API Documentation
+
+### Authentication
+All API calls require a Bearer token. Generate one at Settings > API > New Token.
+Example: Authorization: Bearer YOUR_TOKEN_HERE
+
+### Rate Limits
+- Free: 1,000 requests/day
+- Starter: 10,000 requests/day  
+- Pro: 50,000 requests/day
+- Enterprise: Unlimited
+
+### Common Endpoints
+- GET /api/v1/projects - List all projects
+- POST /api/v1/projects - Create project
+- GET /api/v1/tasks - List tasks
+- POST /api/v1/tasks - Create task
+- GET /api/v1/users/me - Get current user
+
+## Support Channels
+- Help Center: help.novasoft.io
+- Email: support@novasoft.io
+- Status Page: status.novasoft.io
+- Community Forum: community.novasoft.io
+- Enterprise Phone: +1-800-NOVASOFT (Mon-Fri 9am-6pm EST)

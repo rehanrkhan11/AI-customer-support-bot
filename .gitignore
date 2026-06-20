@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+*.env
+.env.local
+
+# FAISS vector database (auto-generated, don't commit)
+faiss_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
